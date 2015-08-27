@@ -1,0 +1,40 @@
+{
+  "name": "CVS-UX-Prototype-Lab",
+  "version": "0.0.1",
+  "description": "HTML Protoyping Lab for CVS UX",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shane Osbourne",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "2.0.4",
+    "browser-sync": "^2.8.2",
+    "gulp-autoprefixer": "2.3.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.6",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-uglify": "^1.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-compass": "^2.1.0",
+    "gulp-imagemin": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanbelisle/cvs-prototypelab.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "sass",
+    "browsersync"
+  ],
+  "bugs": {
+    "url": "https://github.com/ryanbelisle/cvs-prototypelab/issues"
+  },
+  "homepage": "https://github.com/ryanbelisle/cvs-prototypelab"
+}

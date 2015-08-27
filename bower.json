@@ -1,0 +1,25 @@
+{
+  "name": "CVS-UX-Prototype-Lab",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ryanbelisle/cvs-prototypelab",
+  "authors": [
+    "Ryan Belisle <ryan@ryanbelisle.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "modernizr": "^2.8.3"
+    
+  },
+  "devDependencies": {
+   "fontawesome": "^4.4.0",
+   "bootstrap-sass-official": "^3.3.5"
+  }
+}

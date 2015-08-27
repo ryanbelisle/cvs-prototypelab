@@ -1,3 +1,4 @@
-name: Your New Jekyll Site
+name: CVS UX Prototype Lab
 markdown: redcarpet
-pygments: true
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json", "bower.json", "scss"]

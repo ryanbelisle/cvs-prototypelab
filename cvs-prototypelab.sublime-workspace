@@ -1,0 +1,977 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"borer-r",
+				"border-radius"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"t",
+				"transparent"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padding-",
+				"padding-left"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"margn",
+				"margin-top"
+			],
+			[
+				"fw-",
+				"fw-normal"
+			],
+			[
+				"fot",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"pur",
+				"purple"
+			],
+			[
+				"pu",
+				"purple-bright"
+			],
+			[
+				"pr",
+				"purple"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"con",
+				"container_12"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"hr",
+				"href	Attr"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"blo",
+				"blockquote	<blockquote>"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"background-",
+				"background-size:   (property)"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"list-sty",
+				"list-style-position"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"mix",
+				"mix_all"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 476,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 736,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Browse",
+				"SFTP: Browse Server…"
+			],
+			[
+				"Brow",
+				"SFTP: Browse Server…"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Sass",
+				"SassBeautify"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			],
+			[
+				"Pck",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/_config.yml",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/package.json",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/package.json",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/single.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/single_BAK.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/scss/app.scss",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/scss/_forms.scss",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/scss/_selectize.scss",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/footer.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/header.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/js/lib/selectize.js-master/dist/css/selectize.default.css",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/js/lib/selectize.js-master/dist/css/selectize.css",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/js/main.js",
+		"/Applications/MAMP/htdocs/rippleworks.org/salesforce-form.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/_socialink_core/init.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/front-page.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/css/style_unminified.css",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/views/site/header_inner.php",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/gulpfile.js",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/style.css",
+		"/Applications/MAMP/htdocs/rippleworks.org/sftp-config.json",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/assets/css/style_update.css",
+		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/views/site/socialmedia.php",
+		"/Users/ReeBooT/Library/Application Support/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/molecules/_mod-sidebar-nav.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_page-header.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/css/app.min.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_header.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/index.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/app.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/templates/_jsf-search.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_forms.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_components.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_heros.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/utilities/_base.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/utilities/_variables.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/templateDetails.xml",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/templates/_taxonomy.scss",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/sbxTwig/index.html.twig",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/sbxTwig/_partials/head.twig",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/sbxTwig/index.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_buttons.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/index.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/_includes/foot-templatejs.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/css/style-responsive.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/css/style.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/sftp-config.json",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/gulpfile.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/latinainstitute.nonprofitsoapbox.com/nlirh/package.json",
+		"/Applications/MAMP/htdocs/localsoapbox.com/templates/sbxTwig/css/ie.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/css/app.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/molecules/_mod-upevents.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_footer.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/molecules/_mod-plain.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/molecules/_mod-ctabar.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/utilities/_modules.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_messages.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/scss/utilities/_messages.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_footer-bar.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/molecules/_sponsors.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/js/app.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/js/_app.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/theme/_style.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/theme/_typography.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_sidebar.scss",
+		"/Applications/MAMP/htdocs/localsoapbox.com/storage/template/config.json",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/utilities/_typography.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/templates/_jsf-submit.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/molecules/_nav-mobile.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/organisms/_header-mobile.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/templates/_user.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/templates/_events.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_blog-table.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/index.html",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/organisms/_header-mobile.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/app.min.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/organisms/_header.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/index.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/index.html",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/app.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_variables.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_typography.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_style.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_utils.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_base.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/molecules/_nav-sidebar.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/molecules/_modules.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/organisms/_footer.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/molecules/_nav-mobile.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/molecules/_nav-desktop.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/sbxcore/_sbx-overrides.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/app.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/templates/_home.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/templateDetails.xml",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/joniandfriends.nonprofitsoapbox.com/joni/css/app.min.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/joniandfriends.nonprofitsoapbox.com/joni/index.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/joniandfriends.nonprofitsoapbox.com/joni/scss/theme/_style.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/joniandfriends.nonprofitsoapbox.com/joni/index.html",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_fonts.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/_shame.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/index.html",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_magpopup.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/utilities/_mosaic.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss/molecules/_mosaic-mods.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/package.json",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/gulpfile.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/bower.json",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/ie.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/js/app.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_tables.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/soapboxengage.nonprofitsoapbox.com/sbxengage/scss/templates/_events.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_pagination.scss",
+		"/Users/ReeBooT/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/gulpfile.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/bower.json",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/css/style-responsive.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/css/shame.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/compete.nonprofitsoapbox.com/compete/css/style.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/index.php",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/css/app.min.css",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/scss/app.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/gulpfile.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/vendor/owl.carousel.2.0.0-beta.2.4/assets/_owl.carousel.scss",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/js/vendor.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/js/vendor.min.js",
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/coastguardfdn.nonprofitsoapbox.com/cgfrwd/scss/app.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss",
+			"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/scss",
+			"/Applications/MAMP/htdocs/picnet/soapbox-templates/coastguardfdn.nonprofitsoapbox.com/cgfrwd/scss",
+			"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon",
+			"/Applications/MAMP/htdocs/premierlawncarema.com/canvas-html",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"images",
+			"scroll",
+			"onepage",
+			"#5F5C5D",
+			"$stratos",
+			"#f6f3ef",
+			"#f2f2f2",
+			"#808082",
+			"#ebeced",
+			"#f0f0f1",
+			"#262523",
+			"#F9F8F7",
+			"#e3e1dc",
+			"#99948b",
+			"#465902",
+			"#736f68",
+			"#2c4001",
+			"#acbf1b",
+			"#9e8dff",
+			"#5f5da6",
+			"#fff",
+			"#ffffff",
+			"#000",
+			"compList",
+			"label.choic",
+			"color:#a68860;",
+			"color:#fff;",
+			"border-color:#c4a67e;",
+			"#fff",
+			"#fbf8f4",
+			"sass/",
+			"});\n",
+			"[/memeber-media]",
+			"<div class=\"span6\">",
+			",</strong> ",
+			"</strong>,\n  <br />",
+			",</strong>\n  <br />",
+			" /> <strong>",
+			"height",
+			"width",
+			"alt",
+			"<p style=\"height: 250px;\"><img class=\"img-left\" src",
+			"</a>\n</p>",
+			"<p style=\"clear: both;\">&nbsp;</p>",
+			"</span6>",
+			"<span6>",
+			"</strong>,\n    <br />",
+			"mediaHeading=\"",
+			",</strong>\n    <br />",
+			" /> <strong>",
+			"height",
+			"width",
+			"alt=",
+			"<img class=\"img-left\" src",
+			"</p>",
+			"<p style=\"clear: both;\">&nbsp;</p>",
+			"<p style=\"height: 250px;\">",
+			"@media",
+			"-lg",
+			"008fc5",
+			"#ja-cssmenu",
+			"923f00",
+			"403e3e",
+			"923f00",
+			"sm-bar",
+			"f36900",
+			"0087c2",
+			"url(none)",
+			"none",
+			"ul.menuhorz",
+			"7c2c3b",
+			"a53a4e",
+			"015696",
+			"807458",
+			"c25400",
+			"807458",
+			"fcb917",
+			"0087c2",
+			"26547c",
+			"231e16",
+			"433a2b",
+			"231e16",
+			"$endeavour",
+			"$gray699",
+			"#f0f1f1",
+			"#f8f9f9",
+			"$dark-gray333",
+			"$gray666",
+			"#333",
+			"#ed1a2e",
+			"#666",
+			"#58595b",
+			"#e3e4e5",
+			"#dcddde",
+			"#fbd0d4",
+			"$black000",
+			"#000",
+			"#bf1625",
+			"#666699",
+			"#d1d3d4",
+			"$whitefff",
+			"#fff",
+			"#ed1b2e",
+			"$red",
+			"#0053a2",
+			"#0066cc",
+			"#000033",
+			"$font-dinmd",
+			"$font-dnmd",
+			"font-family: DINMedium, Arial, Helvetica, sans-serif;",
+			"DINRegular, Arial, Helvetica, sans-serif",
+			"$whitefff",
+			"$black033",
+			"#000",
+			"#fff",
+			"DINRegular, Arial, Helvetica, sans-serif",
+			"#000",
+			"#fff",
+			"DINRegular, Arial, Helvetica, sans-serif",
+			"DINMedium, Arial, Helvetica, sans-serif",
+			"#000",
+			"#fff",
+			"204px",
+			"rn-border",
+			"rem",
+			"widget_rss",
+			"widget_categories",
+			"sm-form"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$scorpion",
+			"$tuatara",
+			"$pampas",
+			"$westar",
+			"$zorba",
+			"$green-md",
+			"$flint",
+			"$green-dark",
+			"$green",
+			"$purple-bright",
+			"$purple",
+			"$white",
+			"$black",
+			"$endeavor",
+			"$black-haze-light",
+			"$black-haze",
+			"$dark-gray",
+			"$gray",
+			"$dark-gray",
+			"$crimson",
+			"$gray",
+			"$abbey",
+			"$iron-light",
+			"$cinderella",
+			"$black",
+			"$thunderbird",
+			"$iron",
+			"$white",
+			"$crimson",
+			"$endeavour",
+			"$science-blue",
+			"$stratos",
+			"font-family: $font-dinmd",
+			"$font-dinreg",
+			"$white",
+			"#000033"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "bower.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 476,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_complete": true,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								685,
+								732
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 251.0
+	},
+	"pinned_build_system": "",
+	"project": "cvs-prototypelab.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control Messages"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
