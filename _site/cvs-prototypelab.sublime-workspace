@@ -263,22 +263,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "bower.json",
-			"settings":
-			{
-				"buffer_size": 476,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "package.json",
-			"settings":
-			{
-				"buffer_size": 736,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -357,12 +341,31 @@
 	},
 	"expanded_folders":
 	[
-		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab"
+		"/Applications/MAMP/htdocs/cvs/prototypelab",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/_layouts"
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/_config.yml",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/.gitignore",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/_layouts/default.html",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/_config_prod.yml",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/gulpfile.js",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/_config.yml",
+		"/Applications/MAMP/htdocs/cvs/prototypelab/_site_prod/index.html",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/index.html",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/_layouts/default.html",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/.gitignore",
+		"/Applications/MAMP/htdocs/premierlawncarema.com/craft/templates/_layout.html",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/gulpfile.js",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/playground/type-scale.html",
+		"/Users/ReeBooT/Downloads/banana-chocolate-chip-master/gulpfile.js",
+		"/Applications/MAMP/htdocs/premierlawncarema.com/gulpfile.js",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/js/app.js",
+		"/Users/ReeBooT/Downloads/banana-chocolate-chip-master/app/index.html",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/_posts/2014-04-20-welcome-to-jekyll.markdown",
 		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/package.json",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/bower.json",
+		"/Applications/MAMP/htdocs/cvs/cvs-prototypelab/_config.yml",
 		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/package.json",
 		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/single.php",
 		"/Applications/MAMP/htdocs/rippleworks.org/wp-content/themes/sink_rippleworks/single_BAK.php",
@@ -470,25 +473,7 @@
 		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/package.json",
 		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/gulpfile.js",
 		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/bower.json",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/ie.css",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/js/app.js",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_tables.scss",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/soapboxengage.nonprofitsoapbox.com/sbxengage/scss/templates/_events.scss",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/scss/atoms/_pagination.scss",
-		"/Users/ReeBooT/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/gulpfile.js",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/bower.json",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/css/style-responsive.css",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/ucon.nonprofitsoapbox.com/ucon/css/shame.css",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/compete.nonprofitsoapbox.com/compete/css/style.css",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/index.php",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/css/app.min.css",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/scss/app.scss",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/gulpfile.js",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/vendor/owl.carousel.2.0.0-beta.2.4/assets/_owl.carousel.scss",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/js/vendor.js",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/stepup.nonprofitsoapbox.com/stepup/js/vendor.min.js",
-		"/Applications/MAMP/htdocs/picnet/soapbox-templates/coastguardfdn.nonprofitsoapbox.com/cgfrwd/scss/app.scss"
+		"/Applications/MAMP/htdocs/picnet/soapbox-templates/frogs.nonprofitsoapbox.com/frogs/css/ie.css"
 	],
 	"find":
 	{
@@ -693,194 +678,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "bower.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								468,
-								468
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": true,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "package.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 736,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								685,
-								732
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],

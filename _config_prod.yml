@@ -3,4 +3,5 @@ markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json", "bower.json", "scss", "bower_components"]
 url: "http://cvsux.ryanbelisle.com"
-baseurl: ""
+baseurl: "/prototypelab"
+destination: "_site_prod"

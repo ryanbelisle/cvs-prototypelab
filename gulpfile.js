@@ -106,7 +106,7 @@ gulp.task('copyfonts', function() {
  */
 gulp.task('watch', function () {
     gulp.watch('scss/*.scss', ['sass']);
-    gulp.watch('js/*.js', ['scripts']);
+    //gulp.watch('js/*.js', ['scripts']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
