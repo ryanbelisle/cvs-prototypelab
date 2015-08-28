@@ -65,16 +65,36 @@ gulp.task('bootstrap', function () {
 
 
 // Task: SASS
+// gulp.task('sass', function () {
+//     return gulp.src('scss/app.scss')
+//         .pipe(sass({
+//             includePaths: ['scss'],
+//             onError: browserSync.notify
+//         }))
+//         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+//         .pipe(gulp.dest('_site/css'))
+//         .pipe(browserSync.reload({stream:true}))
+//         .pipe(gulp.dest('css'));
+// });
+
+
+// Task: Sass
 gulp.task('sass', function () {
     return gulp.src('scss/app.scss')
-        .pipe(sass({
-            includePaths: ['scss'],
-            onError: browserSync.notify
-        }))
+        .pipe(sass({includePaths: ['scss']}))
+        // Catch any SCSS errors and prevent them from crashing gulp
+        .on('error', function (error) {
+            console.error(error);
+            this.emit('end');
+        })
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
-        .pipe(browserSync.reload({stream:true}))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('css'))
+        .pipe(rename({suffix: '.min'}))
+        .pipe(minifycss())
+        .pipe(gulp.dest('_site/css'))
+        .pipe(gulp.dest('css'))
+        .pipe(reload({stream:true}));
 });
 
 
@@ -107,7 +127,7 @@ gulp.task('copyfonts', function() {
 gulp.task('watch', function () {
     gulp.watch('scss/*.scss', ['sass']);
     //gulp.watch('js/*.js', ['scripts']);
-    gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', '_layouts/*.html', 'playground/*.html', '_includes/*', '_posts/*'], ['jekyll-rebuild']);
 });
 
 /**
