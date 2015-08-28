@@ -21,7 +21,7 @@ var messages = {
 };
 
 
-// Build Jekyll Site
+// Task: Build Jekyll Site
 gulp.task('jekyll-build', function (done) {
     browserSync.notify(messages.jekyllBuild);
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
@@ -29,13 +29,13 @@ gulp.task('jekyll-build', function (done) {
 });
 
 
-// Rebuild Jekyll & Page Reload
+// Task: Rebuild Jekyll & Page Reload
 gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
 
-// Wait for Jekyll Build, then Launch Server
+// Task: Wait for Jekyll Build, then Launch Server
 gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
     browserSync({
         server: {
@@ -63,9 +63,8 @@ gulp.task('bootstrap', function () {
         .pipe(reload({stream:true}));
 });
 
-/**
- * Compile files from _scss into both _site/css (for live injecting) and site (for future jekyll builds)
- */
+
+// Task: SASS
 gulp.task('sass', function () {
     return gulp.src('scss/app.scss')
         .pipe(sass({
@@ -76,6 +75,20 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
         .pipe(gulp.dest('css'));
+});
+
+
+// Task: Concatenate & Minify JS
+gulp.task('scripts', function() {
+    return gulp.src([
+        'bower_components/jquery/dist/jquery.js',
+        'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'
+        ])
+        .pipe(concat('vendor.js'))
+        .pipe(gulp.dest('_site/js'))
+        .pipe(rename('vendor.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('js'));
 });
 
 
@@ -93,6 +106,7 @@ gulp.task('copyfonts', function() {
  */
 gulp.task('watch', function () {
     gulp.watch('scss/*.scss', ['sass']);
+    gulp.watch('js/*.js', ['scripts']);
     gulp.watch(['index.html', '_layouts/*.html', '_posts/*'], ['jekyll-rebuild']);
 });
 
@@ -100,4 +114,4 @@ gulp.task('watch', function () {
  * Default task, running just `gulp` will compile the sass,
  * compile the jekyll site, launch BrowserSync & watch files.
  */
-gulp.task('default', ['bootstrap', 'sass', 'copyfonts', 'browser-sync', 'watch']);
+gulp.task('default', ['bootstrap', 'sass', 'scripts', 'copyfonts', 'browser-sync', 'watch']);
