@@ -1,0 +1,10 @@
+.footer {
+	position: relative;
+	height: 148px;
+	margin-top: 40px;
+
+	h6 {
+		@include center;
+		font-weight: 400;
+	}
+}

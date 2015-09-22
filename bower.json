@@ -15,11 +15,11 @@
     "tests"
   ],
   "dependencies": {
-    "modernizr": "^2.8.3"
-    
+    "modernizr": "^3.0.0"    
   },
   "devDependencies": {
    "fontawesome": "^4.4.0",
-   "bootstrap-sass-official": "^3.3.5"
+   "bootstrap-sass-official": "^3.3.5",
+   "scotch-panels": "^1.0.3"
   }
 }

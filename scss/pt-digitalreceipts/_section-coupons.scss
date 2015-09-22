@@ -1,0 +1,25 @@
+.hr {
+	height: 1px;
+	background-color: #E9E9E9;
+}
+
+.section-coupons {
+	padding-top: 40px;
+	padding-bottom: 40px;
+
+	&.bg-blue-light1 {
+		background-color: #E9F6F9;
+	}
+
+	.section__title {
+		font-size: 26px;
+		color: #1E1E1E;
+	}
+
+	.section__subtitle {
+		margin-top: 12px;
+		font-size: 16px;
+		line-height: 1.4;
+		color: #6C6C6C;
+	}
+}

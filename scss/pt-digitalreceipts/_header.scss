@@ -1,0 +1,10 @@
+.header {
+	position: relative;
+	height: 96px;
+
+	h6 {
+		@include center;
+		font-weight: 400;
+	}
+	
+}

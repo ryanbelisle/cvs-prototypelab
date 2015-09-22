@@ -47,20 +47,20 @@ gulp.task('browser-sync', ['sass', 'jekyll-build'], function() {
 
 // Task: Bootstrap
 gulp.task('bootstrap', function () {
-    return gulp.src('scss/bootstrap.scss')
-        .pipe(sass())
+    return gulp.src('scss/cvs-bootstrap.scss')
+        .pipe(sass({includePaths: ['scss']}))
         // Catch any SCSS errors and prevent them from crashing gulp
         .on('error', function (error) {
             console.error(error);
             this.emit('end');
         })
-        .pipe(gulp.dest('_site/css'))
-        .pipe(gulp.dest('css'))
-        .pipe(rename({suffix: '.min'}))
-        .pipe(minifycss())
-        .pipe(gulp.dest('_site/css'))
-        .pipe(gulp.dest('css'))
-        .pipe(reload({stream:true}));
+        .pipe(gulp.dest('_site/css'))        
+        .pipe(reload({stream:true}))
+        .pipe(gulp.dest('css'));
+        //.pipe(rename({suffix: '.min'}))
+        //.pipe(minifycss())
+        //.pipe(gulp.dest('_site/css'))
+        //.pipe(gulp.dest('css'))
 });
 
 
@@ -78,7 +78,7 @@ gulp.task('bootstrap', function () {
 // });
 
 
-// Task: Sass
+// Task: Prototypes Sass
 gulp.task('sass', function () {
     return gulp.src('scss/app.scss')
         .pipe(sass({includePaths: ['scss']}))
@@ -89,12 +89,13 @@ gulp.task('sass', function () {
         })
         .pipe(prefix(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(gulp.dest('_site/css'))
-        .pipe(gulp.dest('css'))
-        .pipe(rename({suffix: '.min'}))
-        .pipe(minifycss())
-        .pipe(gulp.dest('_site/css'))
-        .pipe(gulp.dest('css'))
-        .pipe(reload({stream:true}));
+        .pipe(reload({stream:true}))
+        .pipe(gulp.dest('css'));
+        //.pipe(rename({suffix: '.min'}))
+        //.pipe(minifycss())
+        //.pipe(gulp.dest('_site/css'))
+       // pipe(gulp.dest('css'))
+        
 });
 
 
@@ -102,12 +103,13 @@ gulp.task('sass', function () {
 gulp.task('scripts', function() {
     return gulp.src([
         'bower_components/jquery/dist/jquery.js',
-        'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js'
+        'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+        'bower_components/scotch-panels/dist/scotchPanels.js'
         ])
         .pipe(concat('vendor.js'))
         .pipe(gulp.dest('_site/js'))
-        .pipe(rename('vendor.min.js'))
-        .pipe(uglify())
+        .pipe(reload({stream:true}))
+        //.pipe(uglify())
         .pipe(gulp.dest('js'));
 });
 
@@ -116,7 +118,7 @@ gulp.task('scripts', function() {
 gulp.task('copyfonts', function() {
    gulp.src('bower_components/fontawesome/fonts/**/*.{ttf,woff,eot,svg,woff2,otf}')
    .pipe(gulp.dest('_site/fonts'))
-   .pipe(gulp.dest('fonts'))
+   .pipe(gulp.dest('fonts'));
 });
 
 
@@ -125,9 +127,9 @@ gulp.task('copyfonts', function() {
  * Watch html/md files, run jekyll & reload BrowserSync
  */
 gulp.task('watch', function () {
-    gulp.watch('scss/*.scss', ['sass']);
-    //gulp.watch('js/*.js', ['scripts']);
-    gulp.watch(['index.html', '_layouts/*.html', 'playground/*.html', '_includes/*', '_posts/*'], ['jekyll-rebuild']);
+    gulp.watch('scss/**/*', ['sass','bootstrap']);
+    gulp.watch('js/*.js');
+    gulp.watch(['index.html', '_layouts/**/*.html', 'playground/**/*.html', '_includes/**/*', '_posts/**/*', 'project/**/*'], ['jekyll-rebuild']);
 });
 
 /**

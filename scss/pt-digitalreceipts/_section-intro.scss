@@ -1,0 +1,40 @@
+.section-intro {
+	margin-top: 40px;
+	margin-bottom: 40px;
+
+	.intro__help {
+		display: none;
+	}
+}
+
+.intro__title {
+	margin: 0;
+	font-size: 26px;
+	line-height: 1.2;
+	color: #cc0000;
+}
+
+.intro__heading1 {
+	margin-top: 20px;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #343434;
+}
+
+.intro__heading2 {
+	margin-top: 16px;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #343434;
+}
+
+.intro__help {
+	font-size: 12px;
+	line-height: 1.4;
+	color: #6C6C6C;
+
+	a {
+		color: #6C6C6C;
+		text-decoration: underline;
+	}
+}

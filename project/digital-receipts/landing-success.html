@@ -1,0 +1,55 @@
+---
+layout: default
+title: Digital Reciepts Landing Success
+---
+
+{% include project/digital-receipts/header.html %}
+<section class="section-intro">
+	<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<h1 class="intro__title">Success!</h1>
+			<p class="intro__heading1">Your deal loaded on your ExtraCare card ending in 9425 and is ready to use. Happy savings!</p>
+			<p class="intro__heading2">Just present your ExtraCare card to the associate when you check out.</p>
+			<!-- Card -->
+			<p class="intro__help">Questions? Get <a href="#">help here</a>.<br>Didn’t find your answer through the link? Please call ExtraCare Customer Service at 1-800-746-7278.</p>
+		</div>
+	</div>
+</div>
+</section>
+<section class="section-divider">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<div class="hr"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-coupons section-coupons--new bg-white">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="section__title">New! <br>Action on these deals now!</h1>
+				<h2 class="section__subtitle">Simply send them to your card.</h2>
+				{% for i in (1..7) %}
+				    {% include project/digital-receipts/coupon.html %}
+				{% endfor %}				
+			</div>
+		</div>
+	</div>
+</section>
+<section class="section-coupons section-coupons--deals bg-blue-light1">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<h1 class="section__title">Deals ready to use.</h1>
+				<h2 class="section__subtitle">You’ve already activated them; now use them before they expire.</h2>
+				{% for i in (1..4) %}
+				    {% include project/digital-receipts/coupon.html %}
+				{% endfor %}	
+			</div>
+		</div>
+	</div>
+</section>
+{% include project/digital-receipts/footer.html %}
