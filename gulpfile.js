@@ -129,7 +129,7 @@ gulp.task('copyfonts', function() {
 gulp.task('watch', function () {
     gulp.watch('scss/**/*', ['sass','bootstrap']);
     gulp.watch('js/*.js');
-    gulp.watch(['index.html', '_layouts/**/*.html', 'playground/**/*.html', '_includes/**/*', '_posts/**/*', 'project/**/*'], ['jekyll-rebuild']);
+    gulp.watch(['index.html', '_data/**/*', '_layouts/**/*.html', 'playground/**/*.html', '_includes/**/*', '_posts/**/*', 'project/**/*'], ['jekyll-rebuild']);
 });
 
 /**

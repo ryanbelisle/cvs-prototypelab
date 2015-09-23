@@ -32,7 +32,7 @@ title: Digital Reciepts Landing Success
 			<div class="col-sm-12">
 				<h1 class="section__title">New! <br>Action on these deals now!</h1>
 				<h2 class="section__subtitle">Simply send them to your card.</h2>
-				{% for i in (1..7) %}
+				{% for coupon in site.data.coupons-new %}
 				    {% include project/digital-receipts/coupon.html %}
 				{% endfor %}				
 			</div>
@@ -45,7 +45,7 @@ title: Digital Reciepts Landing Success
 			<div class="col-sm-12">
 				<h1 class="section__title">Deals ready to use.</h1>
 				<h2 class="section__subtitle">You’ve already activated them; now use them before they expire.</h2>
-				{% for i in (1..4) %}
+				{% for coupon in site.data.coupons-ready %}
 				    {% include project/digital-receipts/coupon.html %}
 				{% endfor %}	
 			</div>

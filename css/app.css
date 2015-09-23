@@ -286,13 +286,115 @@
 .coupon {
   width: 290px;
   height: 232px; }
-
-.coupon__body {
-  height: 208px;
-  padding: 3px;
-  background-color: #fff;
-  border: 1px solid #E9E9E9; }
-
-.coupon__bodytype {
-  height: 200px;
-  border: 2px solid #D1D1D1; }
+  .coupon__body {
+    height: 208px;
+    padding: 3px;
+    background-color: #fff;
+    border: 1px solid #E9E9E9; }
+  .coupon__bodytype {
+    height: 200px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border: 2px solid #D1D1D1; }
+  .coupon__info-col {
+    position: relative;
+    float: left;
+    width: 204px;
+    height: 168px;
+    padding-left: 14px;
+    padding-right: 16px; }
+  .coupon__action-col {
+    position: relative;
+    float: right;
+    width: 74px;
+    height: 168px;
+    border-left: 2px dotted #D1D1D1; }
+  .coupon__discount {
+    margin: 0;
+    font-size: 44px;
+    line-height: 32px; }
+  .coupon__discount > sup,
+  .coupon__discount > span {
+    display: inline-block; }
+  .coupon__dollarsign {
+    top: -12px;
+    font-size: 22px;
+    line-height: 1;
+    color: #CC0000; }
+  .coupon__dollar {
+    font-size: 44px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #CC0000; }
+  .coupon__cents {
+    top: -14px;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+    color: #CC0000; }
+  .coupon__off {
+    margin-left: 4px;
+    font-size: 24px;
+    line-height: 1;
+    color: #CC0000; }
+  .coupon__details {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #1E1E1E; }
+  .coupon__redeemable {
+    margin-top: 12px;
+    font-size: 12px;
+    line-height: 1;
+    color: #565656; }
+  .coupon__expiring {
+    position: absolute;
+    bottom: 0;
+    left: 14px; }
+  .coupon__date {
+    font-size: 12px;
+    line-height: 1;
+    color: #565656; }
+  .coupon__expiring {
+    line-height: 16px; }
+    .coupon__expiring img {
+      width: 16px;
+      height: 16px; }
+    .coupon__expiring strong {
+      margin-left: 4px;
+      margin-right: 12px;
+      font-size: 12px;
+      line-height: 1;
+      color: #1E1E1E; }
+  .coupon__send2card {
+    position: relative;
+    display: block;
+    width: 72px;
+    height: 168px;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #1E1E1E;
+    text-align: center; }
+    .coupon__send2card:hover {
+      cursor: pointer;
+      color: #CC0000;
+      text-decoration: none; }
+    .coupon__send2card span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      display: block;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px; }
+    .coupon__send2card img {
+      display: inline-block;
+      margin-bottom: 4px; }
+  .coupon--eb .coupon__bodytype {
+    border-color: #FFD216; }
+  .coupon--eb .coupon__action-col {
+    border-color: #FFD216; }

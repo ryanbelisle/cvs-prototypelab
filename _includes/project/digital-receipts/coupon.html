@@ -1,7 +1,20 @@
-<div class="coupon">
+<div class="coupon coupon--{{ coupon.type }}">
 	<div class="coupon__body">
 		<div class="coupon__bodytype">
-			
+			<div class="coupon__info-col">
+				<h3 class="coupon__discount">
+					<sup class="coupon__dollarsign">$</sup><span class="coupon__dollar">{{ coupon.dollar }}</span><sup class="coupon__cents">{{ coupon.cents }}</sup><span class="coupon__off">off</span>
+				</h3>
+				<p class="coupon__details">{{ coupon.details }}</p>
+				<p class="coupon__redeemable">Redeemable in store only</p>
+				<div class="coupon__expiring">
+					{% if coupon.expiring %}<img src="/images/project/digital-receipts/icon-expiring__new.svg"><strong>{{ coupon.expiring }}</strong>{% endif %}<span class="coupon__date">EXP {{ coupon.date }}</span>
+				</div>
+			</div>
+			<div class="coupon__action-col">
+				<a class="coupon__send2card">
+					<span><img src="/images/project/digital-receipts/icon-send2card.svg">Send to Card</a></span>
+			</div>
 		</div>
 	</div>
 	<div class="coupon__bar">

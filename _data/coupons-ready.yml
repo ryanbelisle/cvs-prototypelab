@@ -1,0 +1,27 @@
+- type: eb
+  dollar: 5
+  cents: 
+  details: $3 ExtraBucks<sup>&reg;</sup> Rewards
+  expiring: 
+  date: 09/19/2015
+
+- type: oar
+  dollar: 2
+  cents: 50
+  details: $2.50 off Coppertone, Neutrogena or CVS Brand Sun Protection
+  expiring: 
+  date: 09/19/2015
+
+- type: oar
+  dollar: 1
+  cents: 
+  details: Select Nature Made Vitamins
+  expiring: 
+  date: 09/19/2015
+
+- type: oar
+  dollar: 10
+  cents: "%"
+  details: Any Mitchm Deodorant
+  expiring: SOON!
+  date: 09/16/2015

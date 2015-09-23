@@ -1,17 +1,172 @@
 .coupon {
 	width: 290px;
 	height: 232px;
+
+	&__body {
+		height: 208px;
+		padding: 3px;
+		background-color: #fff;
+		border: 1px solid #E9E9E9;
+	}
+
+	&__bodytype {
+		height: 200px;
+		padding-top: 14px;
+		padding-bottom: 14px;
+		border: 2px solid #D1D1D1;
+	}
+
+	&__info-col {
+		position: relative;
+		float: left;
+		width: 204px;
+		height: 168px;
+		padding-left: 14px;
+		padding-right: 16px;
+	}
+
+	&__action-col {
+		position: relative;
+		float: right;
+		width: 74px;
+		height: 168px;
+
+		border-left: 2px dotted #D1D1D1;
+	}
+
+	&__discount {
+		margin: 0;
+		font-size: 44px;
+		line-height: 32px;
+	}
+
+	&__discount > sup,
+	&__discount > span {
+		display: inline-block;		
+	}
+
+	&__dollarsign {
+		top: -12px;
+		font-size: 22px;
+		line-height: 1;
+		color: #CC0000;
+	}
+
+	&__dollar {
+		font-size: 44px;		
+		line-height: 32px;
+		font-weight: 700;
+		color: #CC0000;
+	}
+
+	&__cents {
+		top: -14px;
+		font-size: 24px;		
+		line-height: 1;
+		font-weight: 700;
+		color: #CC0000;
+	}
+
+	&__off {
+		margin-left: 4px;
+		font-size: 24px;
+		line-height: 1;
+		color: #CC0000;
+	}
+
+
+	&__details {
+		margin-top: 12px;
+		font-size: 14px;		
+		line-height: 1.2;
+		color: #1E1E1E;
+	}
+
+	&__redeemable {
+		margin-top: 12px;
+		font-size: 12px;
+		line-height: 1;
+		color: #565656;
+	}
+
+	&__expiring {
+		position: absolute;
+		bottom: 0;
+		left: 14px;
+		//margin-top: 12px;
+	}
+
+	&__date {
+		font-size: 12px;
+		line-height: 1;
+		color: #565656;		
+	}
+
+
+	&__expiring {
+		line-height: 16px;
+
+		img {
+			width: 16px;
+			height: 16px;
+		}
+
+		strong {
+			margin-left: 4px;
+			margin-right: 12px;
+			font-size: 12px;
+			line-height: 1;
+			color: #1E1E1E;		
+		}
+
+	}
+
+
+
+	&__send2card {
+		position: relative;
+		display: block;
+		width: 72px;
+		height: 168px;
+
+		font-size: 13px;
+		line-height: 1.2;
+		font-weight: 700;
+		color: #1E1E1E;
+		text-align: center;
+
+		&:hover {
+			cursor: pointer;
+			color: #CC0000;			
+			text-decoration: none;
+		}
+
+		span {
+			@include center;
+			display: block;
+			width: 100%;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		img {
+			display: inline-block;
+			margin-bottom: 4px;
+		}
+	}
+
+
+	&--eb {
+		.coupon__bodytype {
+			border-color: #FFD216;
+		}
+
+		.coupon__action-col {
+			border-color: #FFD216;
+		}
+	}
+
 }
 
 
-.coupon__body {
-	height: 208px;
-	padding: 3px;
-	background-color: #fff;
-	border: 1px solid #E9E9E9;
-}
 
-.coupon__bodytype {
-	height: 200px;
-	border: 2px solid #D1D1D1;
-}
