@@ -1,0 +1,92 @@
+$gbp-xs: 480px;
+$gbp-mi: 524px;
+$gbp-sm: 768px;
+$gbp-md: 1024px;
+$gbp-lg: 1280px;
+$gbp-xl: 1532px;
+$gbp-xxl: 1784px;
+
+
+[class*="col-"] {
+	background-color: #e9e9e9;
+	border: 1px solid #d1d1d1;
+}
+
+
+.col-prodgrid {
+	background-color: #fff;
+	border: none;
+}
+
+
+.container {
+	@include breakpoint($gbp-mi) {
+		//max-width: 524px;
+	}
+	@include breakpoint($gbp-sm) {
+		width: 760px;
+	}
+	@include breakpoint($gbp-md) {
+		width: 1012px;
+	}
+	@include breakpoint($gbp-lg) {
+		width: 1262px;
+	}
+	@include breakpoint($gbp-xl) {
+		width: 1514px;
+	}
+	@include breakpoint($gbp-xxl) {
+		width: 1764px;
+	}
+}
+
+
+.product-grid-wrap {
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+
+.product-grid {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 252px;
+
+	@include breakpoint($gbp-mi) {
+		max-width: 504px;
+	}
+	@include breakpoint($gbp-sm) {
+		max-width: 756px;
+	}
+	@include breakpoint($gbp-md) {
+		max-width: 1008px;
+	}
+	@include breakpoint($gbp-lg) {
+		max-width: 1260px;
+	}
+	@include breakpoint($gbp-xl) {
+		max-width: 1512px;
+	}
+	@include breakpoint($gbp-xxl) {
+		max-width: 1764px;
+	}
+
+	.p-1 {
+		//margin-left: 0px;
+	}
+}
+
+
+.product {
+	position: relative;
+	width: 232px;
+	height: 480px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	//background-color: #8c8c8c;
+	h6 {
+		@include center;
+	}
+}
