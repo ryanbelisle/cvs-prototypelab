@@ -1,9 +1,16 @@
 {% assign coupon_action = 'send2card' %}
+{% assign coupon_expiring_icon = '' %}
 
 {% if coupon.action == 'OC' %}
 	{% assign coupon_action = 'oncard' %}
 {% elsif coupon.action == 'PRINTED' %}
 	{% assign coupon_action = 'printed' %}
+{% endif %}
+
+{% if coupon.expiring == 'NEW!' %}
+	{% assign coupon_expiring_icon = 'new' %}
+{% elsif coupon.expiring == 'SOON!' %}
+	{% assign coupon_expiring_icon = 'soon' %}
 {% endif %}
 
 
@@ -17,7 +24,7 @@
 				<p class="coupon__details">{{ coupon.details }}</p>
 				<p class="coupon__redeemable">Redeemable in store only</p>
 				<div class="coupon__expiring">
-					{% if coupon.expiring %}<img src="{{ site.baseurl }}/images/project/digital-receipts/icon-expiring__new.svg"><strong>{{ coupon.expiring }}</strong>{% endif %}<span class="coupon__date">EXP {{ coupon.date }}</span>
+					{% if coupon.expiring %}<img src="{{ site.baseurl }}/images/project/digital-receipts/icon-expiring__{{ coupon_expiring_icon }}.svg"><strong>{{ coupon.expiring }}</strong>{% endif %}<span class="coupon__date">EXP {{ coupon.date }}</span>
 				</div>
 			</div>
 			<div class="coupon__action-col">
