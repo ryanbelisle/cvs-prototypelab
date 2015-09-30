@@ -12,6 +12,7 @@ var concat      = require('gulp-concat');
 var uglify      = require('gulp-uglify');
 var rename      = require('gulp-rename');
 var browserSync = require('browser-sync');
+var sourcemaps  = require('gulp-sourcemaps');
 var reload      = browserSync.reload;
 
 
@@ -81,7 +82,12 @@ gulp.task('bootstrap', function () {
 // Task: Prototypes Sass
 gulp.task('sass', function () {
     return gulp.src('scss/app.scss')
-        .pipe(sass({includePaths: ['scss']}))
+        .pipe(sass({
+            includePaths: [
+                'scss',
+                'bower_components/susy/sass'
+            ]
+        }))
         // Catch any SCSS errors and prevent them from crashing gulp
         .on('error', function (error) {
             console.error(error);
@@ -104,7 +110,8 @@ gulp.task('scripts', function() {
     return gulp.src([
         'bower_components/jquery/dist/jquery.js',
         'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
-        'bower_components/scotch-panels/dist/scotchPanels.js'
+        'bower_components/scotch-panels/dist/scotchPanels.js',
+        'bower_components/isotope/dist/isotope.pkgd.js'
         ])
         .pipe(concat('vendor.js'))
         .pipe(gulp.dest('_site/js'))
@@ -128,7 +135,7 @@ gulp.task('copyfonts', function() {
  */
 gulp.task('watch', function () {
     gulp.watch('scss/**/*', ['sass','bootstrap']);
-    gulp.watch('js/*.js');
+    gulp.watch('js/*.js', ['jekyll-rebuild']);
     gulp.watch(['index.html', '_data/**/*', '_layouts/**/*.html', 'playground/**/*.html', '_includes/**/*', '_posts/**/*', 'project/**/*'], ['jekyll-rebuild']);
 });
 

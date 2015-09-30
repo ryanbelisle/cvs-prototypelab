@@ -7,4 +7,8 @@
 		@include center;
 		font-weight: 400;
 	}
+
+	@include breakpoint($bp-sm) {
+		height: 340px;
+	}
 }

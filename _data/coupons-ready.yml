@@ -4,6 +4,8 @@
   details: $3 ExtraBucks<sup>&reg;</sup> Rewards
   expiring: 
   date: 09/19/2015
+  action: OC
+  print: 0
 
 - type: oar
   dollar: 2
@@ -11,6 +13,8 @@
   details: $2.50 off Coppertone, Neutrogena or CVS Brand Sun Protection
   expiring: 
   date: 09/19/2015
+  action: OC
+  print: 0
 
 - type: oar
   dollar: 1
@@ -18,6 +22,8 @@
   details: Select Nature Made Vitamins
   expiring: 
   date: 09/19/2015
+  action: PRINTED
+  print: 1
 
 - type: oar
   dollar: 10
@@ -25,3 +31,5 @@
   details: Any Mitchm Deodorant
   expiring: SOON!
   date: 09/16/2015
+  action: OC
+  print: 0

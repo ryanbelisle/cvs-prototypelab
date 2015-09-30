@@ -1,3 +1,12 @@
+{% assign coupon_action = 'send2card' %}
+
+{% if coupon.action == 'OC' %}
+	{% assign coupon_action = 'oncard' %}
+{% elsif coupon.action == 'PRINTED' %}
+	{% assign coupon_action = 'printed' %}
+{% endif %}
+
+
 <div class="coupon coupon--{{ coupon.type }}">
 	<div class="coupon__body">
 		<div class="coupon__bodytype">
@@ -12,12 +21,18 @@
 				</div>
 			</div>
 			<div class="coupon__action-col">
-				<a class="coupon__send2card">
+				<a class="coupon__action coupon__action--{{ coupon_action }}" href="#">
+				{% if coupon.action == 'OC' %}
+					<span><img src="/images/project/digital-receipts/icon-check.svg">On Card</a></span>
+				{% elsif coupon.action == 'PRINTED' %}
+					<span><img src="/images/project/digital-receipts/icon-check.svg">Printed</a></span>
+				{% else %}
 					<span><img src="/images/project/digital-receipts/icon-send2card.svg">Send to Card</a></span>
+				{% endif %}
 			</div>
 		</div>
 	</div>
 	<div class="coupon__bar">
-		
+		<a class="coupon__viewdetails" href="#"><img class="coupon__viewdetails-icon" src="/images/project/digital-receipts/viewdetails-angle-right.svg">View Details</a>{% if coupon.print == 1 %}<a class="coupon__print" href="#"><img class="coupon__viewdetails-icon" src="/images/project/digital-receipts/icon-print.svg">Print</a>{% endif %}
 	</div>
 </div>

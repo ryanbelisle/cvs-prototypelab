@@ -1,0 +1,8 @@
+- type: oar
+  dollar: 5
+  cents: 
+  details: $25 in-store purchase<sup>
+  expiring: NEW!
+  date: 09/29/2015
+  action: OC
+  print: 1

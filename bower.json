@@ -15,11 +15,14 @@
     "tests"
   ],
   "dependencies": {
-    "modernizr": "^3.0.0"    
+    "modernizr": "^3.0.0"
   },
   "devDependencies": {
-   "fontawesome": "^4.4.0",
-   "bootstrap-sass-official": "^3.3.5",
-   "scotch-panels": "^1.0.3"
+    "fontawesome": "^4.4.0",
+    "bootstrap-sass-official": "^3.3.5",
+    "scotch-panels": "^1.0.3",
+    "isotope": "^2.0.0",
+    "susy": "~2.2.6",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1"
   }
 }

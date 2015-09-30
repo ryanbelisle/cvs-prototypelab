@@ -4,6 +4,8 @@
   details: $3 ExtraBucks<sup>&reg;</sup> Rewards
   expiring: NEW!
   date: 09/29/2015
+  action: S2C
+  print: 1
 
 - type: eb
   dollar: 4
@@ -11,6 +13,8 @@
   details: $4 ExtraBucks<sup>&reg;</sup> Rewards for having purchased select Eucerin or Aquaphor products
   expiring: NEW!
   date: 09/29/2015
+  action: S2C
+  print: 1
 
 - type: oar
   dollar: 4
@@ -18,6 +22,8 @@
   details: Buy 2, Get 1 FREE Birthday, Father’s Day or Greeting Cards
   expiring: NEW!
   date: 09/29/2015
+  action: S2C
+  print: 1
 
 - type: oar
   dollar: 3
@@ -25,6 +31,8 @@
   details: $11 in body wash, bar soap, liquid hand soap
   expiring: NEW!
   date: 09/29/2015
+  action: S2C
+  print: 1
 
 - type: oar
   dollar: 2
@@ -32,6 +40,8 @@
   details: $6 Almonds, Cashews, Mixed Nuts or Peanuts
   expiring: NEW!
   date: 09/29/2015
+  action: S2C
+  print: 1
 
 - type: oar
   dollar: 25
@@ -39,6 +49,8 @@
   details: Any tampon, pad or liner purchase, including CVS brand
   expiring: NEW!
   date: 09/29/2015
+  action: S2C
+  print: 1
 
 - type: oar
   dollar: 15
@@ -46,3 +58,5 @@
   details: Any Mitchm Deodorant
   expiring: 
   date: 09/19/2015
+  action: S2C
+  print: 1

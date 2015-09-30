@@ -10,4 +10,12 @@ $(function() {
       enableEscapeKey: true
     });
 
+  //   $('.coupon-list').isotope({
+		//   itemSelector: '.coupon',
+		//   layoutMode: 'fitRows',
+		//   fitRows: {
+		//   	gutter: 30
+		//   }
+		// });
+
 });

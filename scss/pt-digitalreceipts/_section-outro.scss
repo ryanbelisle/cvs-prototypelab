@@ -4,5 +4,9 @@
 	.img__fpo1 {
 		margin-top: 28px;
 	}
+
+	@include breakpoint($bp-sm) {
+		display: none;
+	}
 }
 

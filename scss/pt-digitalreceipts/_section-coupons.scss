@@ -3,23 +3,114 @@
 	background-color: #E9E9E9;
 }
 
+
 .section-coupons {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 28px;
+	padding-bottom: 28px;
+
+	.container {
+		max-width: 640px;
+
+		@include breakpoint($bp-md) {
+			max-width: none;
+		}
+	}
 
 	&.bg-blue-light1 {
 		background-color: #E9F6F9;
 	}
 
 	.section__title {
+		display: inline-block;
 		font-size: 26px;
 		color: #1E1E1E;
+
+		@include breakpoint($bp-sm) {
+			br {
+				display: none;
+			}
+		}
 	}
 
 	.section__subtitle {
-		margin-top: 12px;
+		margin-top: 8px;
 		font-size: 16px;
 		line-height: 1.4;
 		color: #6C6C6C;
+
+		@include breakpoint($bp-md) {
+			display: inline-block;
+			margin-left: 16px;
+		}
+	}
+
+	@include breakpoint($bp-sm) {
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
 }
+
+
+
+$susy: (
+	global-box-sizing: border-box
+);
+
+$susy: (
+  columns: 24,
+  gutters: 0,
+  debug: (image: hide)
+);
+
+.coupon-grid {	
+	@include container;
+	//@include clearfix; 
+
+	.coupon {
+		margin-top: 20px;
+	}
+
+	@include breakpoint($bp-mi) {
+		.coupon-grid__item {
+			@include gallery(12);
+		}
+		.coupon-grid__item:nth-child(2n + 2) > .coupon {
+			float: right;
+		}
+	}
+
+	@include breakpoint($bp-md) {
+		.coupon-grid__item {
+			@include gallery(8);
+		}
+
+		.coupon-grid__item:nth-child(2n + 2) > .coupon {
+			float: none;
+		}
+		.coupon-grid__item:nth-child(3n + 2) > .coupon {
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.coupon-grid__item:nth-child(3n + 3) > .coupon {
+			float: right;
+		}
+	}
+
+
+	@include breakpoint($bp-sm) {
+		margin-top: -8px;
+
+		.coupon {
+			margin-top: 28px;
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
