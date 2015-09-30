@@ -17,22 +17,22 @@
 				<p class="coupon__details">{{ coupon.details }}</p>
 				<p class="coupon__redeemable">Redeemable in store only</p>
 				<div class="coupon__expiring">
-					{% if coupon.expiring %}<img src="/images/project/digital-receipts/icon-expiring__new.svg"><strong>{{ coupon.expiring }}</strong>{% endif %}<span class="coupon__date">EXP {{ coupon.date }}</span>
+					{% if coupon.expiring %}<img src="{{ site.baseurl }}/images/project/digital-receipts/icon-expiring__new.svg"><strong>{{ coupon.expiring }}</strong>{% endif %}<span class="coupon__date">EXP {{ coupon.date }}</span>
 				</div>
 			</div>
 			<div class="coupon__action-col">
 				<a class="coupon__action coupon__action--{{ coupon_action }}" href="#">
 				{% if coupon.action == 'OC' %}
-					<span><img src="/images/project/digital-receipts/icon-check.svg">On Card</a></span>
+					<span><img src="{{ site.baseurl }}/images/project/digital-receipts/icon-check.svg">On Card</a></span>
 				{% elsif coupon.action == 'PRINTED' %}
-					<span><img src="/images/project/digital-receipts/icon-check.svg">Printed</a></span>
+					<span><img src="{{ site.baseurl }}/images/project/digital-receipts/icon-check.svg">Printed</a></span>
 				{% else %}
-					<span><img src="/images/project/digital-receipts/icon-send2card.svg">Send to Card</a></span>
+					<span><img src="{{ site.baseurl }}/images/project/digital-receipts/icon-send2card.svg">Send to Card</a></span>
 				{% endif %}
 			</div>
 		</div>
 	</div>
 	<div class="coupon__bar">
-		<a class="coupon__viewdetails" href="#"><img class="coupon__viewdetails-icon" src="/images/project/digital-receipts/viewdetails-angle-right.svg">View Details</a>{% if coupon.print == 1 %}<a class="coupon__print" href="#"><img class="coupon__viewdetails-icon" src="/images/project/digital-receipts/icon-print.svg">Print</a>{% endif %}
+		<a class="coupon__viewdetails" href="#"><img class="coupon__viewdetails-icon" src="{{ site.baseurl }}/images/project/digital-receipts/viewdetails-angle-right.svg">View Details</a>{% if coupon.print == 1 %}<a class="coupon__print" href="#"><img class="coupon__viewdetails-icon" src="{{ site.baseurl }}/images/project/digital-receipts/icon-print.svg">Print</a>{% endif %}
 	</div>
 </div>
